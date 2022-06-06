@@ -6,7 +6,7 @@ export default function ZodiacCard({ name, dates }) {
   console.log(name, dates);
   return (
     <div className='zodiacCard'>
-      <img alt={name} src={process.env.PUBLIC_URL + `images/${name}.png`} />
+      <img alt={name} src={`/images/${name}.png`} />
       <span className='name'>{name}</span>
       <span>{dates}</span>
     </div>
